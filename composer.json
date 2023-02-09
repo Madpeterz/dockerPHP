@@ -1,0 +1,21 @@
+{
+    "name": "madpeterz/dockerphp",
+    "description": "a bad docker php api via sockets",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "madpeterz\\dockerphp\\test\\": "test",
+            "madpeterz\\dockerphp\\": "src"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.4"
+        }
+    },
+    "require": {
+        "madpeterz/yapfinputfilter": "^4.1",
+        "php-http/socket-client": "^2.1",
+        "guzzlehttp/psr7": "^2.4"
+    }
+}
